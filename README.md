@@ -25,6 +25,14 @@ To use PyCypher for SAY-Format Encryption, follow these simple steps:
    ```bash
    pip install -r requirements.txt
 3. Configure the MySQL database by updating the `dbconfig.ini` file with your database credentials.
+    ```bash
+   [MYSQL_DB]
+   Host = localhost
+   Port_number = 3306
+   Database_name = your_database_name
+   Database_user = your_database_user
+   Database_password = your_database_password
+
 4. Run the `main.py` file to start PyCypher.
     ```bash
      python3 main.py
