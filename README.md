@@ -58,7 +58,7 @@ To use PyCypher for SAY-Format Encryption, follow these simple steps:
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request. - see the [Code of Conduct](CODE_OF_CONDUCT) file for details.
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request. - see the [Code of Conduct](CODE_OF_CONDUCT.md) file for details.
 
 ## Contact
 
