@@ -12,11 +12,22 @@ PyCypher is a Python-based tool developed by Sayantan Patra for encrypting text 
 ## Getting Started
 
 To use PyCypher for SAY-Format Encryption, follow these simple steps:
+## Getting Started
+
+To use PyCypher for SAY-Format Encryption, follow these simple steps:
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies listed in the `requirements.txt` file.
+   ```bash
+   git clone https://github.com/sayantancodex/PyCypher.git
+  
+2. Install the required dependencies by running:
+
+   ```bash
+   pip install -r requirements.txt
 3. Configure the MySQL database by updating the `dbconfig.ini` file with your database credentials.
 4. Run the `main.py` file to start PyCypher.
+    ```bash
+     python3 main.py
 5. Choose the encryption option and enter your message to be encrypted.
 6. PyCypher will generate a unique token and encrypt the message using the SAY-Format Encryption algorithm.
 7. Copy and save the token for decryption later.
